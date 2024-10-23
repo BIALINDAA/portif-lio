@@ -23,9 +23,22 @@ body{
     color: var(--preto-suave); 
 }
 
+.img-thumbnail{
+    border: 8px solid var(--preto-suave);
+
+}
+
 h1,h3{
     font-family: var(--fonte-principal);
     color: var(--cinza-escuro);
+}
+
+.card{
+    background-color: var(--roxo-pastel);
+    color: var(--preto-suave);
+    border: 2px solid #000000; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 p {
