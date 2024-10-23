@@ -8,20 +8,27 @@
 :root{
     --fonte-principal: "Spicy Rice", serif;
     --fonte-secundario: "Varela Round", sans-serif;
-    --vermelho-cereja: #780000ff;
-    --vermelho-fogo: #c1121fff;
-    --mamao: rgb(255, 241, 86);
-    --azul-prússia: #003049ff;
-    --azul-bebe: #669bbcff;
+    --rosa-claro: #f8c8dc;
+    --rosa-escuro: #e1a6b9; 
+    --roxo-pastel: #d3b2e0; 
+    --lavanda-pastel: #e8d3f1; 
+    --preto-suave: #333333; 
+    --cinza-escuro: #4b4b4b; 
     --branco: #ffffff;
-    
 }
 
 body{
     font-family: var(--fonte-principal);
-    background-color: var(--mamao);
+    background-color: var(--rosa-claro); 
+    color: var(--preto-suave); 
 }
 
 h1,h3{
     font-family: var(--fonte-principal);
+    color: var(--cinza-escuro);
+}
+
+p {
+    font-family: var(--fonte-secundario);
+    color: var(--preto-suave); 
 }
